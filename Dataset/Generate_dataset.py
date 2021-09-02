@@ -2,7 +2,7 @@ import numpy as np
 from music21 import *
 from collections import Counter
 
-def get_sequences(notes_array,timesteps):
+def get_sequences(notes_array,timesteps=32,future_steps=8):
 
     notes_ = [element for note_ in notes_array for element in note_]
     freq = dict(Counter(notes_))
@@ -18,19 +18,17 @@ def get_sequences(notes_array,timesteps):
                 temp.append(note_)            
         new_music.append(temp)
         
-    new_music = np.array(new_music)
+    new_music = np.array(new_music,dtype=object)
 
 
     no_of_timesteps = timesteps
     x = []
     y = []
-
     for note_ in new_music:
-        for i in range(0, len(note_) - no_of_timesteps-1, 1):
-            
+        for i in range(0, len(note_) - (no_of_timesteps+future_steps), 1): 
             #preparing input and output sequences
             input_ = note_[i:i + no_of_timesteps]
-            output = note_[i+1+no_of_timesteps]
+            output = note_[i+1:i+future_steps+1]
             
             x.append(input_)
             y.append(output)
@@ -51,7 +49,15 @@ def get_sequences(notes_array,timesteps):
         
     x_seq = np.array(x_seq)
 
-    y_seq=np.array([note_to_int[i] for i in y])
+    y_seq=[]
+    for i in y:
+        temp=[]
+        for j in i:
+            #assigning unique integer to every note
+            temp.append(note_to_int[j])
+        y_seq.append(temp)
+        
+    y_seq = np.array(y_seq)
 
 
     return x_seq,y_seq,unique_notes,note_to_int

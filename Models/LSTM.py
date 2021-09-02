@@ -6,60 +6,39 @@ import tensorflow as tf
 import torch.nn.functional as F
 import math
 
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+
 
 class Sequence(nn.Module): 
-    def __init__(self,num_classes, seq_length,embedding_dimension = 100):
+    def __init__(self,num_classes, seq_length,embedding_dimension = 100,num_layers= 3,hidden_size_lstm = 256):
         super(Sequence, self).__init__()
         self.num_classes = num_classes
         self.seq_length = seq_length
+        self.num_layers = num_layers
+        self.hidden_size_lstm = hidden_size_lstm
         self.embedding_dimension = embedding_dimension
-        self.embedding = nn.Embedding(self.num_classes, self.embedding_dimension)
-        self.lstm = nn.LSTM(input_size= self.embedding_dimension, hidden_size=128 ,num_layers=3,batch_first = True)
-        self.linear1 = nn.Linear(128,256)
-        self.relu = torch.nn.ReLU(inplace=False)
-        self.linear2 = nn.Linear(256,self.num_classes) 
-        self.softmax = torch.nn.Softmax()
-        # self.linear3 = nn.Linear(64,32)
+        self.embedding = nn.Embedding(self.num_classes, self.embedding_dimension).to(device)
+        self.lstm = nn.LSTM(input_size= self.embedding_dimension, hidden_size=self.hidden_size_lstm ,num_layers=self.num_layers,batch_first = True).to(device)
+        self.linear1 = nn.Linear(self.hidden_size_lstm,128).to(device)
+        self.relu = torch.nn.ReLU(inplace=False).to(device)
+        self.linear2 = nn.Linear(128,128) .to(device)
+        self.softmax = torch.nn.Softmax().to(device)
+        self.linear3 = nn.Linear(128,self.num_classes).to(device)
         #self.linear4 = nn.Linear(64,self.num_classes) 
-        # self.dropout = nn.Dropout(p=0.3)
+        self.dropout = nn.Dropout(p=0.2)
 
 
     def forward(self, input ,batch_size):
       x = self.embedding(input)
-      h_t = torch.zeros(3,batch_size, 128, dtype=torch.float)
-      c_t = torch.zeros(3,batch_size, 128, dtype=torch.float)
+    #   print(device)
+      h_t = torch.zeros(self.num_layers,batch_size, 256, dtype=torch.float).to(device)
+      c_t = torch.zeros(self.num_layers,batch_size, 256, dtype=torch.float).to(device)
       x,_ = self.lstm(x,(h_t,c_t))
       # print(x.shape)
       lstm_output = x[:,-1,:]
       # print(lstm_output.shape)
-      output = self.linear2(self.relu(self.linear1(self.relu(lstm_output))))
+      output = self.linear3(self.relu(self.dropout(self.linear2(self.relu(self.dropout(self.linear1(self.relu(self.dropout(lstm_output)))))))))
       # output = self.softmax(output)
       return output
 
-    def predict(self,input,steps=1):
-        outputs = []
-        curr_window = input
-        # curr_window = torch.zeros(1,input.shape[0],dtype=torch.int32);      
-        # curr_window[0,:] = torch.IntTensor(input) 
-        with torch.no_grad():
-          for i in range(steps):
-            output = self.forward(curr_window,curr_window.shape[0])
-            ind = torch.argmax(output)
-            # print(output[ind])
-            # print(output)
-            ind_ = ind.numpy()
-            outputs.append(ind_)
-            # print(outputs)
-            next = torch.empty(1,1);
-            next[0,:] = ind
-            # print(curr_window)
-            # print(output)
-            curr_window = torch.cat((curr_window,next),1)
-            curr_window = curr_window[:,1:]
-            curr_window = curr_window.type(torch.int32)
-            
-            # plt.figure()
-            # plt.plot(curr_window[0,:,0])
-
-        return outputs
-    
+   
