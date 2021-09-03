@@ -28,7 +28,7 @@ def get_sequences(notes_array,timesteps=32,future_steps=8):
         for i in range(0, len(note_) - (no_of_timesteps+future_steps), 1): 
             #preparing input and output sequences
             input_ = note_[i:i + no_of_timesteps]
-            output = note_[i+1:i+future_steps+1]
+            output = note_[i+1+no_of_timesteps:i+1+no_of_timesteps+future_steps]
             
             x.append(input_)
             y.append(output)
