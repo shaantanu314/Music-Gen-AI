@@ -1,0 +1,2708 @@
+==========================================
+SLURM_JOB_ID = 479935
+SLURM_NODELIST = gnode55
+SLURM_JOB_GPUS = 3
+==========================================
+cuda:0
+. ./trained_model_cache/07_09_2021_16_32
+[1,   600] loss: 4.918
+[1,  1200] loss: 4.674
+[1,  1800] loss: 4.651
+[1,  2400] loss: 4.620
+[1,  3000] loss: 4.586
+[1,  3600] loss: 4.554
+[1,  4200] loss: 4.538
+[1,  4800] loss: 4.501
+[1,  5400] loss: 4.432
+[1,  6000] loss: 4.410
+[1,  6600] loss: 4.400
+Training Time for Epoch :0 
+ 64.66579211130738 seconds
+
+Training Accuracy : 
+ correct predictions  : 1715 
+ total predictions : 56095 
+ Training Accuracy : 3.0573134860504503 
+ ------------------------
+
+Validation Time for Epoch :0 
+ 6.642900409176946 seconds
+
+Validation Accuracy : 
+ correct predictions  : 833 
+ total predictions : 16028 
+ Val-Loss : 0.5436121223125786 
+ Val-Accuracy :5.197154978787123----------------------------------
+
+Updating the model
+/home2/shaantanu.kulkarni/anaconda3/envs/env/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Sequence. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home2/shaantanu.kulkarni/anaconda3/envs/env/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Embedding. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home2/shaantanu.kulkarni/anaconda3/envs/env/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type LSTM. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home2/shaantanu.kulkarni/anaconda3/envs/env/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Linear. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home2/shaantanu.kulkarni/anaconda3/envs/env/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ReLU. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home2/shaantanu.kulkarni/anaconda3/envs/env/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Softmax. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home2/shaantanu.kulkarni/anaconda3/envs/env/lib/python3.6/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Dropout. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+[2,   600] loss: 4.340
+[2,  1200] loss: 4.275
+[2,  1800] loss: 4.270
+[2,  2400] loss: 4.255
+[2,  3000] loss: 4.214
+[2,  3600] loss: 4.184
+[2,  4200] loss: 4.168
+[2,  4800] loss: 4.157
+[2,  5400] loss: 4.093
+[2,  6000] loss: 4.103
+[2,  6600] loss: 4.125
+Training Time for Epoch :1 
+ 65.04954881221056 seconds
+
+Training Accuracy : 
+ correct predictions  : 3559 
+ total predictions : 56095 
+ Training Accuracy : 6.344593992334432 
+ ------------------------
+
+Validation Time for Epoch :1 
+ 6.761840710416436 seconds
+
+Validation Accuracy : 
+ correct predictions  : 1241 
+ total predictions : 16028 
+ Val-Loss : 0.5118050334576749 
+ Val-Accuracy :7.742700274519591----------------------------------
+
+Updating the model
+[3,   600] loss: 4.081
+[3,  1200] loss: 4.028
+[3,  1800] loss: 4.038
+[3,  2400] loss: 4.013
+[3,  3000] loss: 3.989
+[3,  3600] loss: 3.982
+[3,  4200] loss: 3.962
+[3,  4800] loss: 3.951
+[3,  5400] loss: 3.902
+[3,  6000] loss: 3.911
+[3,  6600] loss: 3.938
+Training Time for Epoch :2 
+ 64.0487386379391 seconds
+
+Training Accuracy : 
+ correct predictions  : 4858 
+ total predictions : 56095 
+ Training Accuracy : 8.660308405383724 
+ ------------------------
+
+Validation Time for Epoch :2 
+ 6.671766575425863 seconds
+
+Validation Accuracy : 
+ correct predictions  : 1532 
+ total predictions : 16028 
+ Val-Loss : 0.49022349350048416 
+ Val-Accuracy :9.55827302221113----------------------------------
+
+Updating the model
+[4,   600] loss: 3.907
+[4,  1200] loss: 3.850
+[4,  1800] loss: 3.860
+[4,  2400] loss: 3.843
+[4,  3000] loss: 3.827
+[4,  3600] loss: 3.823
+[4,  4200] loss: 3.814
+[4,  4800] loss: 3.791
+[4,  5400] loss: 3.762
+[4,  6000] loss: 3.784
+[4,  6600] loss: 3.793
+Training Time for Epoch :3 
+ 63.810647040605545 seconds
+
+Training Accuracy : 
+ correct predictions  : 5795 
+ total predictions : 56095 
+ Training Accuracy : 10.33068900971566 
+ ------------------------
+
+Validation Time for Epoch :3 
+ 6.745113782584667 seconds
+
+Validation Accuracy : 
+ correct predictions  : 1717 
+ total predictions : 16028 
+ Val-Loss : 0.47573548500336166 
+ Val-Accuracy :10.712503119540804----------------------------------
+
+Updating the model
+[5,   600] loss: 3.768
+[5,  1200] loss: 3.724
+[5,  1800] loss: 3.732
+[5,  2400] loss: 3.712
+[5,  3000] loss: 3.698
+[5,  3600] loss: 3.704
+[5,  4200] loss: 3.690
+[5,  4800] loss: 3.676
+[5,  5400] loss: 3.637
+[5,  6000] loss: 3.658
+[5,  6600] loss: 3.687
+Training Time for Epoch :4 
+ 64.44433872774243 seconds
+
+Training Accuracy : 
+ correct predictions  : 6737 
+ total predictions : 56095 
+ Training Accuracy : 12.009983064444246 
+ ------------------------
+
+Validation Time for Epoch :4 
+ 25.212762087583542 seconds
+
+Validation Accuracy : 
+ correct predictions  : 1927 
+ total predictions : 16028 
+ Val-Loss : 0.46548999664876894 
+ Val-Accuracy :12.022710257050162----------------------------------
+
+Updating the model
+[6,   600] loss: 3.664
+[6,  1200] loss: 3.616
+[6,  1800] loss: 3.618
+[6,  2400] loss: 3.592
+[6,  3000] loss: 3.581
+[6,  3600] loss: 3.593
+[6,  4200] loss: 3.568
+[6,  4800] loss: 3.575
+[6,  5400] loss: 3.543
+[6,  6000] loss: 3.562
+[6,  6600] loss: 3.569
+Training Time for Epoch :5 
+ 64.15791743248701 seconds
+
+Training Accuracy : 
+ correct predictions  : 7595 
+ total predictions : 56095 
+ Training Accuracy : 13.539531152509134 
+ ------------------------
+
+Validation Time for Epoch :5 
+ 6.839587472379208 seconds
+
+Validation Accuracy : 
+ correct predictions  : 2095 
+ total predictions : 16028 
+ Val-Loss : 0.4577211296585155 
+ Val-Accuracy :13.070875967057649----------------------------------
+
+Updating the model
+[7,   600] loss: 3.554
+[7,  1200] loss: 3.502
+[7,  1800] loss: 3.526
+[7,  2400] loss: 3.479
+[7,  3000] loss: 3.481
+[7,  3600] loss: 3.486
+[7,  4200] loss: 3.465
+[7,  4800] loss: 3.456
+[7,  5400] loss: 3.417
+[7,  6000] loss: 3.463
+[7,  6600] loss: 3.477
+Training Time for Epoch :6 
+ 65.6683873925358 seconds
+
+Training Accuracy : 
+ correct predictions  : 8517 
+ total predictions : 56095 
+ Training Accuracy : 15.183171405651127 
+ ------------------------
+
+Validation Time for Epoch :6 
+ 7.072021076455712 seconds
+
+Validation Accuracy : 
+ correct predictions  : 2211 
+ total predictions : 16028 
+ Val-Loss : 0.45108802404253745 
+ Val-Accuracy :13.79460943349139----------------------------------
+
+Updating the model
+[8,   600] loss: 3.441
+[8,  1200] loss: 3.392
+[8,  1800] loss: 3.396
+[8,  2400] loss: 3.365
+[8,  3000] loss: 3.361
+[8,  3600] loss: 3.368
+[8,  4200] loss: 3.347
+[8,  4800] loss: 3.351
+[8,  5400] loss: 3.308
+[8,  6000] loss: 3.348
+[8,  6600] loss: 3.362
+Training Time for Epoch :7 
+ 71.49910201318562 seconds
+
+Training Accuracy : 
+ correct predictions  : 9456 
+ total predictions : 56095 
+ Training Accuracy : 16.857117390141724 
+ ------------------------
+
+Validation Time for Epoch :7 
+ 7.231348622590303 seconds
+
+Validation Accuracy : 
+ correct predictions  : 2401 
+ total predictions : 16028 
+ Val-Loss : 0.4450789632971578 
+ Val-Accuracy :14.980034938857----------------------------------
+
+Updating the model
+[9,   600] loss: 3.326
+[9,  1200] loss: 3.287
+[9,  1800] loss: 3.287
+[9,  2400] loss: 3.256
+[9,  3000] loss: 3.233
+[9,  3600] loss: 3.254
+[9,  4200] loss: 3.236
+[9,  4800] loss: 3.229
+[9,  5400] loss: 3.195
+[9,  6000] loss: 3.205
+[9,  6600] loss: 3.242
+Training Time for Epoch :8 
+ 72.1530234310776 seconds
+
+Training Accuracy : 
+ correct predictions  : 10477 
+ total predictions : 56095 
+ Training Accuracy : 18.677243961137357 
+ ------------------------
+
+Validation Time for Epoch :8 
+ 9.593899061903358 seconds
+
+Validation Accuracy : 
+ correct predictions  : 2644 
+ total predictions : 16028 
+ Val-Loss : 0.4382791982376578 
+ Val-Accuracy :16.496131769403544----------------------------------
+
+Updating the model
+[10,   600] loss: 3.213
+[10,  1200] loss: 3.159
+[10,  1800] loss: 3.170
+[10,  2400] loss: 3.151
+[10,  3000] loss: 3.120
+[10,  3600] loss: 3.122
+[10,  4200] loss: 3.114
+[10,  4800] loss: 3.119
+[10,  5400] loss: 3.073
+[10,  6000] loss: 3.109
+[10,  6600] loss: 3.116
+Training Time for Epoch :9 
+ 72.16805164888501 seconds
+
+Training Accuracy : 
+ correct predictions  : 11396 
+ total predictions : 56095 
+ Training Accuracy : 20.315536144041356 
+ ------------------------
+
+Validation Time for Epoch :9 
+ 7.411726247519255 seconds
+
+Validation Accuracy : 
+ correct predictions  : 2760 
+ total predictions : 16028 
+ Val-Loss : 0.4345866547860735 
+ Val-Accuracy :17.219865235837283----------------------------------
+
+Updating the model
+[11,   600] loss: 3.076
+[11,  1200] loss: 3.050
+[11,  1800] loss: 3.033
+[11,  2400] loss: 3.003
+[11,  3000] loss: 2.976
+[11,  3600] loss: 3.002
+[11,  4200] loss: 2.991
+[11,  4800] loss: 2.994
+[11,  5400] loss: 2.956
+[11,  6000] loss: 2.980
+[11,  6600] loss: 2.994
+Training Time for Epoch :10 
+ 70.73379328474402 seconds
+
+Training Accuracy : 
+ correct predictions  : 12660 
+ total predictions : 56095 
+ Training Accuracy : 22.56885640431411 
+ ------------------------
+
+Validation Time for Epoch :10 
+ 8.6974084880203 seconds
+
+Validation Accuracy : 
+ correct predictions  : 2942 
+ total predictions : 16028 
+ Val-Loss : 0.43004638582118465 
+ Val-Accuracy :18.355378088345393----------------------------------
+
+Updating the model
+[12,   600] loss: 2.956
+[12,  1200] loss: 2.913
+[12,  1800] loss: 2.912
+[12,  2400] loss: 2.889
+[12,  3000] loss: 2.856
+[12,  3600] loss: 2.878
+[12,  4200] loss: 2.851
+[12,  4800] loss: 2.888
+[12,  5400] loss: 2.841
+[12,  6000] loss: 2.856
+[12,  6600] loss: 2.868
+Training Time for Epoch :11 
+ 71.53038749843836 seconds
+
+Training Accuracy : 
+ correct predictions  : 13661 
+ total predictions : 56095 
+ Training Accuracy : 24.353329173723147 
+ ------------------------
+
+Validation Time for Epoch :11 
+ 7.466324819251895 seconds
+
+Validation Accuracy : 
+ correct predictions  : 3051 
+ total predictions : 16028 
+ Val-Loss : 0.42934339090211154 
+ Val-Accuracy :19.035437983528823----------------------------------
+
+Updating the model
+[13,   600] loss: 2.847
+[13,  1200] loss: 2.782
+[13,  1800] loss: 2.797
+[13,  2400] loss: 2.765
+[13,  3000] loss: 2.722
+[13,  3600] loss: 2.762
+[13,  4200] loss: 2.727
+[13,  4800] loss: 2.749
+[13,  5400] loss: 2.712
+[13,  6000] loss: 2.738
+[13,  6600] loss: 2.721
+Training Time for Epoch :12 
+ 72.35756722837687 seconds
+
+Training Accuracy : 
+ correct predictions  : 15038 
+ total predictions : 56095 
+ Training Accuracy : 26.808093412960154 
+ ------------------------
+
+Validation Time for Epoch :12 
+ 7.276871111243963 seconds
+
+Validation Accuracy : 
+ correct predictions  : 3223 
+ total predictions : 16028 
+ Val-Loss : 0.4312079833099483 
+ Val-Accuracy :20.10856001996506----------------------------------
+
+Updating the model
+[14,   600] loss: 2.728
+[14,  1200] loss: 2.688
+[14,  1800] loss: 2.672
+[14,  2400] loss: 2.650
+[14,  3000] loss: 2.606
+[14,  3600] loss: 2.631
+[14,  4200] loss: 2.596
+[14,  4800] loss: 2.621
+[14,  5400] loss: 2.615
+[14,  6000] loss: 2.620
+[14,  6600] loss: 2.613
+Training Time for Epoch :13 
+ 73.16108981147408 seconds
+
+Training Accuracy : 
+ correct predictions  : 16181 
+ total predictions : 56095 
+ Training Accuracy : 28.845708173634016 
+ ------------------------
+
+Validation Time for Epoch :13 
+ 11.854111563414335 seconds
+
+Validation Accuracy : 
+ correct predictions  : 3423 
+ total predictions : 16028 
+ Val-Loss : 0.4318869240509473 
+ Val-Accuracy :21.356376341402544----------------------------------
+
+Updating the model
+[15,   600] loss: 2.605
+[15,  1200] loss: 2.569
+[15,  1800] loss: 2.561
+[15,  2400] loss: 2.514
+[15,  3000] loss: 2.500
+[15,  3600] loss: 2.509
+[15,  4200] loss: 2.494
+[15,  4800] loss: 2.498
+[15,  5400] loss: 2.494
+[15,  6000] loss: 2.519
+[15,  6600] loss: 2.490
+Training Time for Epoch :14 
+ 64.86086341738701 seconds
+
+Training Accuracy : 
+ correct predictions  : 17462 
+ total predictions : 56095 
+ Training Accuracy : 31.12933416525537 
+ ------------------------
+
+Validation Time for Epoch :14 
+ 6.719567377120256 seconds
+
+Validation Accuracy : 
+ correct predictions  : 3559 
+ total predictions : 16028 
+ Val-Loss : 0.42946305355586584 
+ Val-Accuracy :22.204891439980035----------------------------------
+
+Updating the model
+[16,   600] loss: 2.483
+[16,  1200] loss: 2.462
+[16,  1800] loss: 2.439
+[16,  2400] loss: 2.410
+[16,  3000] loss: 2.364
+[16,  3600] loss: 2.402
+[16,  4200] loss: 2.372
+[16,  4800] loss: 2.405
+[16,  5400] loss: 2.395
+[16,  6000] loss: 2.408
+[16,  6600] loss: 2.390
+Training Time for Epoch :15 
+ 64.30691437795758 seconds
+
+Training Accuracy : 
+ correct predictions  : 18863 
+ total predictions : 56095 
+ Training Accuracy : 33.626882966396295 
+ ------------------------
+
+Validation Time for Epoch :15 
+ 6.831226972863078 seconds
+
+Validation Accuracy : 
+ correct predictions  : 3696 
+ total predictions : 16028 
+ Val-Loss : 0.43328748706245707 
+ Val-Accuracy :23.059645620164712----------------------------------
+
+Updating the model
+[17,   600] loss: 2.376
+[17,  1200] loss: 2.359
+[17,  1800] loss: 2.339
+[17,  2400] loss: 2.314
+[17,  3000] loss: 2.272
+[17,  3600] loss: 2.315
+[17,  4200] loss: 2.280
+[17,  4800] loss: 2.278
+[17,  5400] loss: 2.285
+[17,  6000] loss: 2.311
+[17,  6600] loss: 2.282
+Training Time for Epoch :16 
+ 64.70867742784321 seconds
+
+Training Accuracy : 
+ correct predictions  : 20010 
+ total predictions : 56095 
+ Training Accuracy : 35.671628487387466 
+ ------------------------
+
+Validation Time for Epoch :16 
+ 6.889930257573724 seconds
+
+Validation Accuracy : 
+ correct predictions  : 3769 
+ total predictions : 16028 
+ Val-Loss : 0.44439503202451447 
+ Val-Accuracy :23.515098577489393----------------------------------
+
+Updating the model
+[18,   600] loss: 2.268
+[18,  1200] loss: 2.255
+[18,  1800] loss: 2.237
+[18,  2400] loss: 2.219
+[18,  3000] loss: 2.173
+[18,  3600] loss: 2.179
+[18,  4200] loss: 2.151
+[18,  4800] loss: 2.184
+[18,  5400] loss: 2.183
+[18,  6000] loss: 2.204
+[18,  6600] loss: 2.192
+Training Time for Epoch :17 
+ 64.58032477088273 seconds
+
+Training Accuracy : 
+ correct predictions  : 21224 
+ total predictions : 56095 
+ Training Accuracy : 37.83581424369373 
+ ------------------------
+
+Validation Time for Epoch :17 
+ 6.7747504115104675 seconds
+
+Validation Accuracy : 
+ correct predictions  : 3967 
+ total predictions : 16028 
+ Val-Loss : 0.44611334424379434 
+ Val-Accuracy :24.7504367357125----------------------------------
+
+Updating the model
+[19,   600] loss: 2.192
+[19,  1200] loss: 2.153
+[19,  1800] loss: 2.128
+[19,  2400] loss: 2.133
+[19,  3000] loss: 2.071
+[19,  3600] loss: 2.099
+[19,  4200] loss: 2.063
+[19,  4800] loss: 2.108
+[19,  5400] loss: 2.097
+[19,  6000] loss: 2.110
+[19,  6600] loss: 2.086
+Training Time for Epoch :18 
+ 64.46161565370858 seconds
+
+Training Accuracy : 
+ correct predictions  : 22404 
+ total predictions : 56095 
+ Training Accuracy : 39.93938853730279 
+ ------------------------
+
+Validation Time for Epoch :18 
+ 6.772011615335941 seconds
+
+Validation Accuracy : 
+ correct predictions  : 4046 
+ total predictions : 16028 
+ Val-Loss : 0.45545744251098186 
+ Val-Accuracy :25.24332418268031----------------------------------
+
+Updating the model
+[20,   600] loss: 2.099
+[20,  1200] loss: 2.054
+[20,  1800] loss: 2.064
+[20,  2400] loss: 2.020
+[20,  3000] loss: 2.003
+[20,  3600] loss: 2.011
+[20,  4200] loss: 1.987
+[20,  4800] loss: 1.994
+[20,  5400] loss: 2.014
+[20,  6000] loss: 2.020
+[20,  6600] loss: 1.997
+Training Time for Epoch :19 
+ 64.789780465886 seconds
+
+Training Accuracy : 
+ correct predictions  : 23608 
+ total predictions : 56095 
+ Training Accuracy : 42.08574739281576 
+ ------------------------
+
+Validation Time for Epoch :19 
+ 6.745948197320104 seconds
+
+Validation Accuracy : 
+ correct predictions  : 4163 
+ total predictions : 16028 
+ Val-Loss : 0.4646178651085095 
+ Val-Accuracy :25.97329673072124----------------------------------
+
+Updating the model
+[21,   600] loss: 2.018
+[21,  1200] loss: 1.984
+[21,  1800] loss: 1.960
+[21,  2400] loss: 1.956
+[21,  3000] loss: 1.910
+[21,  3600] loss: 1.918
+[21,  4200] loss: 1.898
+[21,  4800] loss: 1.940
+[21,  5400] loss: 1.934
+[21,  6000] loss: 1.927
+[21,  6600] loss: 1.922
+Training Time for Epoch :20 
+ 64.43515632860363 seconds
+
+Training Accuracy : 
+ correct predictions  : 24641 
+ total predictions : 56095 
+ Training Accuracy : 43.927266244763345 
+ ------------------------
+
+Validation Time for Epoch :20 
+ 6.716392889618874 seconds
+
+Validation Accuracy : 
+ correct predictions  : 4289 
+ total predictions : 16028 
+ Val-Loss : 0.47284201128928477 
+ Val-Accuracy :26.759421013226852----------------------------------
+
+Updating the model
+[22,   600] loss: 1.923
+[22,  1200] loss: 1.887
+[22,  1800] loss: 1.867
+[22,  2400] loss: 1.857
+[22,  3000] loss: 1.827
+[22,  3600] loss: 1.851
+[22,  4200] loss: 1.810
+[22,  4800] loss: 1.851
+[22,  5400] loss: 1.846
+[22,  6000] loss: 1.844
+[22,  6600] loss: 1.846
+Training Time for Epoch :21 
+ 63.96574706397951 seconds
+
+Training Accuracy : 
+ correct predictions  : 25730 
+ total predictions : 56095 
+ Training Accuracy : 45.8686157411534 
+ ------------------------
+
+Validation Time for Epoch :21 
+ 6.695966623723507 seconds
+
+Validation Accuracy : 
+ correct predictions  : 4458 
+ total predictions : 16028 
+ Val-Loss : 0.48679741662221565 
+ Val-Accuracy :27.813825804841528----------------------------------
+
+Updating the model
+[23,   600] loss: 1.860
+[23,  1200] loss: 1.804
+[23,  1800] loss: 1.783
+[23,  2400] loss: 1.789
+[23,  3000] loss: 1.736
+[23,  3600] loss: 1.749
+[23,  4200] loss: 1.723
+[23,  4800] loss: 1.754
+[23,  5400] loss: 1.773
+[23,  6000] loss: 1.766
+[23,  6600] loss: 1.725
+Training Time for Epoch :22 
+ 64.1246687695384 seconds
+
+Training Accuracy : 
+ correct predictions  : 26933 
+ total predictions : 56095 
+ Training Accuracy : 48.01319190658704 
+ ------------------------
+
+Validation Time for Epoch :22 
+ 6.821829289197922 seconds
+
+Validation Accuracy : 
+ correct predictions  : 4520 
+ total predictions : 16028 
+ Val-Loss : 0.5004318737763551 
+ Val-Accuracy :28.20064886448715----------------------------------
+
+Updating the model
+[24,   600] loss: 1.759
+[24,  1200] loss: 1.745
+[24,  1800] loss: 1.735
+[24,  2400] loss: 1.730
+[24,  3000] loss: 1.653
+[24,  3600] loss: 1.674
+[24,  4200] loss: 1.667
+[24,  4800] loss: 1.655
+[24,  5400] loss: 1.705
+[24,  6000] loss: 1.702
+[24,  6600] loss: 1.673
+Training Time for Epoch :23 
+ 64.45140016451478 seconds
+
+Training Accuracy : 
+ correct predictions  : 28206 
+ total predictions : 56095 
+ Training Accuracy : 50.28255637757376 
+ ------------------------
+
+Validation Time for Epoch :23 
+ 6.72703174315393 seconds
+
+Validation Accuracy : 
+ correct predictions  : 4772 
+ total predictions : 16028 
+ Val-Loss : 0.5061789946214559 
+ Val-Accuracy :29.77289742949838----------------------------------
+
+Updating the model
+[25,   600] loss: 1.679
+[25,  1200] loss: 1.626
+[25,  1800] loss: 1.651
+[25,  2400] loss: 1.656
+[25,  3000] loss: 1.604
+[25,  3600] loss: 1.610
+[25,  4200] loss: 1.596
+[25,  4800] loss: 1.614
+[25,  5400] loss: 1.624
+[25,  6000] loss: 1.644
+[25,  6600] loss: 1.635
+Training Time for Epoch :24 
+ 64.21760792471468 seconds
+
+Training Accuracy : 
+ correct predictions  : 29031 
+ total predictions : 56095 
+ Training Accuracy : 51.753275693020775 
+ ------------------------
+
+Validation Time for Epoch :24 
+ 6.8386148400604725 seconds
+
+Validation Accuracy : 
+ correct predictions  : 4753 
+ total predictions : 16028 
+ Val-Loss : 0.5156449175978766 
+ Val-Accuracy :29.65435487896182----------------------------------
+
+[26,   600] loss: 3.456
+[26,  1200] loss: 3.103
+[26,  1800] loss: 3.022
+[26,  2400] loss: 2.942
+[26,  3000] loss: 2.868
+[26,  3600] loss: 2.847
+[26,  4200] loss: 2.841
+[26,  4800] loss: 2.790
+[26,  5400] loss: 2.781
+[26,  6000] loss: 2.746
+[26,  6600] loss: 2.746
+Training Time for Epoch :25 
+ 169.5779827851802 seconds
+
+Training Accuracy : 
+ correct predictions  : 63451 
+ total predictions : 224380 
+ Training Accuracy : 28.278367055887333 
+ ------------------------
+
+Validation Time for Epoch :25 
+ 20.8824629932642 seconds
+
+Validation Accuracy : 
+ correct predictions  : 17198 
+ total predictions : 64112 
+ Val-Loss : 0.09141619417036385 
+ Val-Accuracy :26.824931370102323----------------------------------
+
+[27,   600] loss: 2.662
+[27,  1200] loss: 2.627
+[27,  1800] loss: 2.615
+[27,  2400] loss: 2.607
+[27,  3000] loss: 2.544
+[27,  3600] loss: 2.539
+[27,  4200] loss: 2.503
+[27,  4800] loss: 2.482
+[27,  5400] loss: 2.489
+[27,  6000] loss: 2.474
+[27,  6600] loss: 2.480
+Training Time for Epoch :26 
+ 169.16712818853557 seconds
+
+Training Accuracy : 
+ correct predictions  : 73891 
+ total predictions : 224380 
+ Training Accuracy : 32.93118816293787 
+ ------------------------
+
+Validation Time for Epoch :26 
+ 21.25318318605423 seconds
+
+Validation Accuracy : 
+ correct predictions  : 19657 
+ total predictions : 64112 
+ Val-Loss : 0.08411694054394432 
+ Val-Accuracy :30.66040678812079----------------------------------
+
+Updating the model
+[28,   600] loss: 2.413
+[28,  1200] loss: 2.386
+[28,  1800] loss: 2.380
+[28,  2400] loss: 2.359
+[28,  3000] loss: 2.310
+[28,  3600] loss: 2.310
+[28,  4200] loss: 2.295
+[28,  4800] loss: 2.285
+[28,  5400] loss: 2.290
+[28,  6000] loss: 2.265
+[28,  6600] loss: 2.261
+Training Time for Epoch :27 
+ 169.4636849425733 seconds
+
+Training Accuracy : 
+ correct predictions  : 83402 
+ total predictions : 224380 
+ Training Accuracy : 37.169979499064084 
+ ------------------------
+
+Validation Time for Epoch :27 
+ 21.602381946519017 seconds
+
+Validation Accuracy : 
+ correct predictions  : 22074 
+ total predictions : 64112 
+ Val-Loss : 0.07867507473106601 
+ Val-Accuracy :34.43037184926379----------------------------------
+
+Updating the model
+[29,   600] loss: 2.229
+[29,  1200] loss: 2.193
+[29,  1800] loss: 2.184
+[29,  2400] loss: 2.179
+[29,  3000] loss: 2.127
+[29,  3600] loss: 2.115
+[29,  4200] loss: 2.109
+[29,  4800] loss: 2.113
+[29,  5400] loss: 2.120
+[29,  6000] loss: 2.095
+[29,  6600] loss: 2.085
+Training Time for Epoch :28 
+ 169.19564692117274 seconds
+
+Training Accuracy : 
+ correct predictions  : 91955 
+ total predictions : 224380 
+ Training Accuracy : 40.98181656119084 
+ ------------------------
+
+Validation Time for Epoch :28 
+ 20.956621143966913 seconds
+
+Validation Accuracy : 
+ correct predictions  : 23973 
+ total predictions : 64112 
+ Val-Loss : 0.07436403959416855 
+ Val-Accuracy :37.39237584227602----------------------------------
+
+Updating the model
+[30,   600] loss: 2.066
+[30,  1200] loss: 2.030
+[30,  1800] loss: 2.027
+[30,  2400] loss: 2.029
+[30,  3000] loss: 1.981
+[30,  3600] loss: 1.981
+[30,  4200] loss: 1.965
+[30,  4800] loss: 1.948
+[30,  5400] loss: 1.977
+[30,  6000] loss: 1.951
+[30,  6600] loss: 1.948
+Training Time for Epoch :29 
+ 169.16015954315662 seconds
+
+Training Accuracy : 
+ correct predictions  : 99317 
+ total predictions : 224380 
+ Training Accuracy : 44.26285765219716 
+ ------------------------
+
+Validation Time for Epoch :29 
+ 21.364496488124132 seconds
+
+Validation Accuracy : 
+ correct predictions  : 25939 
+ total predictions : 64112 
+ Val-Loss : 0.07032583512427178 
+ Val-Accuracy :40.45888445220863----------------------------------
+
+Updating the model
+[31,   600] loss: 1.921
+[31,  1200] loss: 1.899
+[31,  1800] loss: 1.889
+[31,  2400] loss: 1.880
+[31,  3000] loss: 1.844
+[31,  3600] loss: 1.837
+[31,  4200] loss: 1.823
+[31,  4800] loss: 1.835
+[31,  5400] loss: 1.835
+[31,  6000] loss: 1.831
+[31,  6600] loss: 1.813
+Training Time for Epoch :30 
+ 169.51556551270187 seconds
+
+Training Accuracy : 
+ correct predictions  : 106744 
+ total predictions : 224380 
+ Training Accuracy : 47.572867456992604 
+ ------------------------
+
+Validation Time for Epoch :30 
+ 21.23484132811427 seconds
+
+Validation Accuracy : 
+ correct predictions  : 27295 
+ total predictions : 64112 
+ Val-Loss : 0.06693024708816676 
+ Val-Accuracy :42.57393311704517----------------------------------
+
+Updating the model
+[32,   600] loss: 1.791
+[32,  1200] loss: 1.764
+[32,  1800] loss: 1.764
+[32,  2400] loss: 1.763
+[32,  3000] loss: 1.720
+[32,  3600] loss: 1.730
+[32,  4200] loss: 1.731
+[32,  4800] loss: 1.705
+[32,  5400] loss: 1.723
+[32,  6000] loss: 1.711
+[32,  6600] loss: 1.696
+Training Time for Epoch :31 
+ 168.6208433173597 seconds
+
+Training Accuracy : 
+ correct predictions  : 113489 
+ total predictions : 224380 
+ Training Accuracy : 50.57892860326232 
+ ------------------------
+
+Validation Time for Epoch :31 
+ 21.045407962054014 seconds
+
+Validation Accuracy : 
+ correct predictions  : 28900 
+ total predictions : 64112 
+ Val-Loss : 0.064413686277587 
+ Val-Accuracy :45.07736461192912----------------------------------
+
+Updating the model
+[33,   600] loss: 1.699
+[33,  1200] loss: 1.659
+[33,  1800] loss: 1.661
+[33,  2400] loss: 1.649
+[33,  3000] loss: 1.627
+[33,  3600] loss: 1.622
+[33,  4200] loss: 1.616
+[33,  4800] loss: 1.618
+[33,  5400] loss: 1.641
+[33,  6000] loss: 1.604
+[33,  6600] loss: 1.602
+Training Time for Epoch :32 
+ 169.5571754463017 seconds
+
+Training Accuracy : 
+ correct predictions  : 119061 
+ total predictions : 224380 
+ Training Accuracy : 53.0622158837686 
+ ------------------------
+
+Validation Time for Epoch :32 
+ 21.271045345813036 seconds
+
+Validation Accuracy : 
+ correct predictions  : 30437 
+ total predictions : 64112 
+ Val-Loss : 0.061491646868296924 
+ Val-Accuracy :47.47473171949089----------------------------------
+
+Updating the model
+[34,   600] loss: 1.592
+[34,  1200] loss: 1.572
+[34,  1800] loss: 1.556
+[34,  2400] loss: 1.562
+[34,  3000] loss: 1.527
+[34,  3600] loss: 1.518
+[34,  4200] loss: 1.539
+[34,  4800] loss: 1.515
+[34,  5400] loss: 1.528
+[34,  6000] loss: 1.530
+[34,  6600] loss: 1.501
+Training Time for Epoch :33 
+ 169.4386956039816 seconds
+
+Training Accuracy : 
+ correct predictions  : 124438 
+ total predictions : 224380 
+ Training Accuracy : 55.45859702290756 
+ ------------------------
+
+Validation Time for Epoch :33 
+ 21.091787783429027 seconds
+
+Validation Accuracy : 
+ correct predictions  : 31460 
+ total predictions : 64112 
+ Val-Loss : 0.059097415533094354 
+ Val-Accuracy :49.07037684052907----------------------------------
+
+Updating the model
+[35,   600] loss: 1.518
+[35,  1200] loss: 1.478
+[35,  1800] loss: 1.486
+[35,  2400] loss: 1.464
+[35,  3000] loss: 1.454
+[35,  3600] loss: 1.452
+[35,  4200] loss: 1.430
+[35,  4800] loss: 1.442
+[35,  5400] loss: 1.450
+[35,  6000] loss: 1.451
+[35,  6600] loss: 1.412
+Training Time for Epoch :34 
+ 170.93327919580042 seconds
+
+Training Accuracy : 
+ correct predictions  : 129119 
+ total predictions : 224380 
+ Training Accuracy : 57.54479008824316 
+ ------------------------
+
+Validation Time for Epoch :34 
+ 22.374274557456374 seconds
+
+Validation Accuracy : 
+ correct predictions  : 32664 
+ total predictions : 64112 
+ Val-Loss : 0.05663256151571457 
+ Val-Accuracy :50.948340404292495----------------------------------
+
+Updating the model
+[36,   600] loss: 1.421
+[36,  1200] loss: 1.409
+[36,  1800] loss: 1.399
+[36,  2400] loss: 1.403
+[36,  3000] loss: 1.374
+[36,  3600] loss: 1.355
+[36,  4200] loss: 1.365
+[36,  4800] loss: 1.375
+[36,  5400] loss: 1.374
+[36,  6000] loss: 1.343
+[36,  6600] loss: 1.338
+Training Time for Epoch :35 
+ 181.963313145563 seconds
+
+Training Accuracy : 
+ correct predictions  : 133958 
+ total predictions : 224380 
+ Training Accuracy : 59.70139941171227 
+ ------------------------
+
+Validation Time for Epoch :35 
+ 25.117200506851077 seconds
+
+Validation Accuracy : 
+ correct predictions  : 33883 
+ total predictions : 64112 
+ Val-Loss : 0.05449549378494848 
+ Val-Accuracy :52.849700524082856----------------------------------
+
+Updating the model
+[37,   600] loss: 1.339
+[37,  1200] loss: 1.313
+[37,  1800] loss: 1.328
+[37,  2400] loss: 1.323
+[37,  3000] loss: 1.305
+[37,  3600] loss: 1.300
+[37,  4200] loss: 1.302
+[37,  4800] loss: 1.298
+[37,  5400] loss: 1.311
+[37,  6000] loss: 1.310
+[37,  6600] loss: 1.276
+Training Time for Epoch :36 
+ 182.04937645234168 seconds
+
+Training Accuracy : 
+ correct predictions  : 138104 
+ total predictions : 224380 
+ Training Accuracy : 61.54915767893752 
+ ------------------------
+
+Validation Time for Epoch :36 
+ 23.114288179203868 seconds
+
+Validation Accuracy : 
+ correct predictions  : 34897 
+ total predictions : 64112 
+ Val-Loss : 0.053122408790334905 
+ Val-Accuracy :54.431307711504864----------------------------------
+
+Updating the model
+[38,   600] loss: 1.278
+[38,  1200] loss: 1.278
+[38,  1800] loss: 1.300
+[38,  2400] loss: 1.249
+[38,  3000] loss: 1.219
+[38,  3600] loss: 1.204
+[38,  4200] loss: 1.206
+[38,  4800] loss: 1.212
+[38,  5400] loss: 1.227
+[38,  6000] loss: 1.222
+[38,  6600] loss: 1.207
+Training Time for Epoch :37 
+ 182.77217318862677 seconds
+
+Training Accuracy : 
+ correct predictions  : 142709 
+ total predictions : 224380 
+ Training Accuracy : 63.601479632765844 
+ ------------------------
+
+Validation Time for Epoch :37 
+ 22.424021746963263 seconds
+
+Validation Accuracy : 
+ correct predictions  : 36039 
+ total predictions : 64112 
+ Val-Loss : 0.05075467162118727 
+ Val-Accuracy :56.21256551035687----------------------------------
+
+Updating the model
+[39,   600] loss: 1.202
+[39,  1200] loss: 1.189
+[39,  1800] loss: 1.203
+[39,  2400] loss: 1.193
+[39,  3000] loss: 1.178
+[39,  3600] loss: 1.175
+[39,  4200] loss: 1.169
+[39,  4800] loss: 1.154
+[39,  5400] loss: 1.185
+[39,  6000] loss: 1.178
+[39,  6600] loss: 1.173
+Training Time for Epoch :38 
+ 185.67111924476922 seconds
+
+Training Accuracy : 
+ correct predictions  : 146075 
+ total predictions : 224380 
+ Training Accuracy : 65.10161333452179 
+ ------------------------
+
+Validation Time for Epoch :38 
+ 26.007596800103784 seconds
+
+Validation Accuracy : 
+ correct predictions  : 36814 
+ total predictions : 64112 
+ Val-Loss : 0.04940677063489886 
+ Val-Accuracy :57.421387571749435----------------------------------
+
+Updating the model
+[40,   600] loss: 1.145
+[40,  1200] loss: 1.140
+[40,  1800] loss: 1.141
+[40,  2400] loss: 1.156
+[40,  3000] loss: 1.129
+[40,  3600] loss: 1.130
+[40,  4200] loss: 1.110
+[40,  4800] loss: 1.120
+[40,  5400] loss: 1.116
+[40,  6000] loss: 1.130
+[40,  6600] loss: 1.101
+Training Time for Epoch :39 
+ 201.53987169265747 seconds
+
+Training Accuracy : 
+ correct predictions  : 149648 
+ total predictions : 224380 
+ Training Accuracy : 66.69400124788305 
+ ------------------------
+
+Validation Time for Epoch :39 
+ 25.356413826346397 seconds
+
+Validation Accuracy : 
+ correct predictions  : 37758 
+ total predictions : 64112 
+ Val-Loss : 0.048080610127625455 
+ Val-Accuracy :58.89381083104567----------------------------------
+
+Updating the model
+[41,   600] loss: 1.095
+[41,  1200] loss: 1.069
+[41,  1800] loss: 1.100
+[41,  2400] loss: 1.091
+[41,  3000] loss: 1.075
+[41,  3600] loss: 1.081
+[41,  4200] loss: 1.064
+[41,  4800] loss: 1.060
+[41,  5400] loss: 1.067
+[41,  6000] loss: 1.064
+[41,  6600] loss: 1.054
+Training Time for Epoch :40 
+ 198.89567947760224 seconds
+
+Training Accuracy : 
+ correct predictions  : 152795 
+ total predictions : 224380 
+ Training Accuracy : 68.0965326677957 
+ ------------------------
+
+Validation Time for Epoch :40 
+ 24.738962264731526 seconds
+
+Validation Accuracy : 
+ correct predictions  : 38419 
+ total predictions : 64112 
+ Val-Loss : 0.0465307958467787 
+ Val-Accuracy :59.9248190666334----------------------------------
+
+Updating the model
+[42,   600] loss: 1.051
+[42,  1200] loss: 1.039
+[42,  1800] loss: 1.042
+[42,  2400] loss: 1.048
+[42,  3000] loss: 1.018
+[42,  3600] loss: 1.016
+[42,  4200] loss: 1.028
+[42,  4800] loss: 1.018
+[42,  5400] loss: 1.032
+[42,  6000] loss: 1.013
+[42,  6600] loss: 0.994
+Training Time for Epoch :41 
+ 185.31368920207024 seconds
+
+Training Accuracy : 
+ correct predictions  : 155711 
+ total predictions : 224380 
+ Training Accuracy : 69.39611373562707 
+ ------------------------
+
+Validation Time for Epoch :41 
+ 21.644641783088446 seconds
+
+Validation Accuracy : 
+ correct predictions  : 39292 
+ total predictions : 64112 
+ Val-Loss : 0.045509110285526566 
+ Val-Accuracy :61.28649862740204----------------------------------
+
+Updating the model
+[43,   600] loss: 1.013
+[43,  1200] loss: 0.976
+[43,  1800] loss: 0.978
+[43,  2400] loss: 1.000
+[43,  3000] loss: 0.998
+[43,  3600] loss: 0.988
+[43,  4200] loss: 0.966
+[43,  4800] loss: 0.966
+[43,  5400] loss: 0.976
+[43,  6000] loss: 0.980
+[43,  6600] loss: 0.947
+Training Time for Epoch :42 
+ 164.58566021174192 seconds
+
+Training Accuracy : 
+ correct predictions  : 158878 
+ total predictions : 224380 
+ Training Accuracy : 70.80755860593636 
+ ------------------------
+
+Validation Time for Epoch :42 
+ 21.126110589131713 seconds
+
+Validation Accuracy : 
+ correct predictions  : 40347 
+ total predictions : 64112 
+ Val-Loss : 0.04346409030556158 
+ Val-Accuracy :62.93205640129773----------------------------------
+
+Updating the model
+[44,   600] loss: 0.946
+[44,  1200] loss: 0.959
+[44,  1800] loss: 0.949
+[44,  2400] loss: 0.952
+[44,  3000] loss: 0.936
+[44,  3600] loss: 0.947
+[44,  4200] loss: 0.932
+[44,  4800] loss: 0.935
+[44,  5400] loss: 0.950
+[44,  6000] loss: 0.940
+[44,  6600] loss: 0.909
+Training Time for Epoch :43 
+ 164.95700668916106 seconds
+
+Training Accuracy : 
+ correct predictions  : 161378 
+ total predictions : 224380 
+ Training Accuracy : 71.92173990551743 
+ ------------------------
+
+Validation Time for Epoch :43 
+ 21.33903962932527 seconds
+
+Validation Accuracy : 
+ correct predictions  : 40875 
+ total predictions : 64112 
+ Val-Loss : 0.042408481480133986 
+ Val-Accuracy :63.755615173446465----------------------------------
+
+Updating the model
+[45,   600] loss: 0.920
+[45,  1200] loss: 0.911
+[45,  1800] loss: 0.916
+[45,  2400] loss: 0.924
+[45,  3000] loss: 0.895
+[45,  3600] loss: 0.909
+[45,  4200] loss: 0.895
+[45,  4800] loss: 0.904
+[45,  5400] loss: 0.909
+[45,  6000] loss: 0.888
+[45,  6600] loss: 0.881
+Training Time for Epoch :44 
+ 165.45288014784455 seconds
+
+Training Accuracy : 
+ correct predictions  : 163583 
+ total predictions : 224380 
+ Training Accuracy : 72.90444781174793 
+ ------------------------
+
+Validation Time for Epoch :44 
+ 21.077866941690445 seconds
+
+Validation Accuracy : 
+ correct predictions  : 41520 
+ total predictions : 64112 
+ Val-Loss : 0.041073144421898085 
+ Val-Accuracy :64.76166708260544----------------------------------
+
+Updating the model
+[46,   600] loss: 1.798
+[46,  1200] loss: 1.664
+[46,  1800] loss: 1.625
+[46,  2400] loss: 1.602
+[46,  3000] loss: 1.557
+[46,  3600] loss: 1.546
+[46,  4200] loss: 1.526
+[46,  4800] loss: 1.517
+[46,  5400] loss: 1.527
+[46,  6000] loss: 1.510
+[46,  6600] loss: 1.477
+Training Time for Epoch :45 
+ 298.50581938773394 seconds
+
+Training Accuracy : 
+ correct predictions  : 266127 
+ total predictions : 448760 
+ Training Accuracy : 59.30274534272216 
+ ------------------------
+
+Validation Time for Epoch :45 
+ 39.42488161101937 seconds
+
+Validation Accuracy : 
+ correct predictions  : 72069 
+ total predictions : 128224 
+ Val-Loss : 0.026038392566168637 
+ Val-Accuracy :56.20554654354879----------------------------------
+
+[47,   600] loss: 1.413
+[47,  1200] loss: 1.411
+[47,  1800] loss: 1.414
+[47,  2400] loss: 1.395
+[47,  3000] loss: 1.372
+[47,  3600] loss: 1.377
+[47,  4200] loss: 1.362
+[47,  4800] loss: 1.357
+[47,  5400] loss: 1.360
+[47,  6000] loss: 1.353
+[47,  6600] loss: 1.342
+Training Time for Epoch :46 
+ 297.96417717449367 seconds
+
+Training Accuracy : 
+ correct predictions  : 281682 
+ total predictions : 448760 
+ Training Accuracy : 62.76896336571887 
+ ------------------------
+
+Validation Time for Epoch :46 
+ 39.97883660905063 seconds
+
+Validation Accuracy : 
+ correct predictions  : 75300 
+ total predictions : 128224 
+ Val-Loss : 0.024357736655024033 
+ Val-Accuracy :58.72535562765161----------------------------------
+
+[48,   600] loss: 1.304
+[48,  1200] loss: 1.295
+[48,  1800] loss: 1.291
+[48,  2400] loss: 1.284
+[48,  3000] loss: 1.266
+[48,  3600] loss: 1.297
+[48,  4200] loss: 1.269
+[48,  4800] loss: 1.223
+[48,  5400] loss: 1.261
+[48,  6000] loss: 1.240
+[48,  6600] loss: 1.222
+Training Time for Epoch :47 
+ 299.00988980941474 seconds
+
+Training Accuracy : 
+ correct predictions  : 292745 
+ total predictions : 448760 
+ Training Accuracy : 65.23420090917193 
+ ------------------------
+
+Validation Time for Epoch :47 
+ 39.67253506183624 seconds
+
+Validation Accuracy : 
+ correct predictions  : 78034 
+ total predictions : 128224 
+ Val-Loss : 0.022931166161953405 
+ Val-Accuracy :60.85756176690791----------------------------------
+
+[49,   600] loss: 1.201
+[49,  1200] loss: 1.218
+[49,  1800] loss: 1.191
+[49,  2400] loss: 1.225
+[49,  3000] loss: 1.181
+[49,  3600] loss: 1.182
+[49,  4200] loss: 1.179
+[49,  4800] loss: 1.156
+[49,  5400] loss: 1.180
+[49,  6000] loss: 1.170
+[49,  6600] loss: 1.147
+Training Time for Epoch :48 
+ 298.15688422881067 seconds
+
+Training Accuracy : 
+ correct predictions  : 301714 
+ total predictions : 448760 
+ Training Accuracy : 67.23281932436046 
+ ------------------------
+
+Validation Time for Epoch :48 
+ 39.41239237040281 seconds
+
+Validation Accuracy : 
+ correct predictions  : 80384 
+ total predictions : 128224 
+ Val-Loss : 0.021805060553030463 
+ Val-Accuracy :62.69029198901922----------------------------------
+
+[50,   600] loss: 1.106
+[50,  1200] loss: 1.128
+[50,  1800] loss: 1.132
+[50,  2400] loss: 1.122
+[50,  3000] loss: 1.120
+[50,  3600] loss: 1.107
+[50,  4200] loss: 1.099
+[50,  4800] loss: 1.087
+[50,  5400] loss: 1.111
+[50,  6000] loss: 1.095
+[50,  6600] loss: 1.067
+Training Time for Epoch :49 
+ 302.0599356889725 seconds
+
+Training Accuracy : 
+ correct predictions  : 310238 
+ total predictions : 448760 
+ Training Accuracy : 69.13227560388626 
+ ------------------------
+
+Validation Time for Epoch :49 
+ 40.247798185795546 seconds
+
+Validation Accuracy : 
+ correct predictions  : 82318 
+ total predictions : 128224 
+ Val-Loss : 0.020738799205607224 
+ Val-Accuracy :64.19858996755677----------------------------------
+
+[51,   600] loss: 1.059
+[51,  1200] loss: 1.057
+[51,  1800] loss: 1.051
+[51,  2400] loss: 1.056
+[51,  3000] loss: 1.043
+[51,  3600] loss: 1.038
+[51,  4200] loss: 1.045
+[51,  4800] loss: 1.012
+[51,  5400] loss: 1.050
+[51,  6000] loss: 1.043
+[51,  6600] loss: 1.017
+Training Time for Epoch :50 
+ 304.99366093985736 seconds
+
+Training Accuracy : 
+ correct predictions  : 317016 
+ total predictions : 448760 
+ Training Accuracy : 70.64265977359835 
+ ------------------------
+
+Validation Time for Epoch :50 
+ 40.18401915952563 seconds
+
+Validation Accuracy : 
+ correct predictions  : 84413 
+ total predictions : 128224 
+ Val-Loss : 0.019689565223469933 
+ Val-Accuracy :65.83244946343898----------------------------------
+
+Updating the model
+[52,   600] loss: 0.986
+[52,  1200] loss: 0.994
+[52,  1800] loss: 1.077
+[52,  2400] loss: 0.976
+[52,  3000] loss: 0.945
+[52,  3600] loss: 0.952
+[52,  4200] loss: 0.938
+[52,  4800] loss: 0.940
+[52,  5400] loss: 0.969
+[52,  6000] loss: 0.946
+[52,  6600] loss: 0.928
+Training Time for Epoch :51 
+ 306.09348230808973 seconds
+
+Training Accuracy : 
+ correct predictions  : 325835 
+ total predictions : 448760 
+ Training Accuracy : 72.60785274979945 
+ ------------------------
+
+Validation Time for Epoch :51 
+ 40.5191146992147 seconds
+
+Validation Accuracy : 
+ correct predictions  : 86325 
+ total predictions : 128224 
+ Val-Loss : 0.018954162868699706 
+ Val-Accuracy :67.32358996755677----------------------------------
+
+Updating the model
+[53,   600] loss: 0.936
+[53,  1200] loss: 0.948
+[53,  1800] loss: 0.969
+[53,  2400] loss: 0.960
+[53,  3000] loss: 0.950
+[53,  3600] loss: 0.936
+[53,  4200] loss: 0.935
+[53,  4800] loss: 0.935
+[53,  5400] loss: 0.960
+[53,  6000] loss: 0.927
+[53,  6600] loss: 0.900
+Training Time for Epoch :52 
+ 304.7498423513025 seconds
+
+Training Accuracy : 
+ correct predictions  : 329230 
+ total predictions : 448760 
+ Training Accuracy : 73.36438185221499 
+ ------------------------
+
+Validation Time for Epoch :52 
+ 40.176349345594645 seconds
+
+Validation Accuracy : 
+ correct predictions  : 87668 
+ total predictions : 128224 
+ Val-Loss : 0.018268992365966616 
+ Val-Accuracy :68.37097579236337----------------------------------
+
+Updating the model
+[54,   600] loss: 0.889
+[54,  1200] loss: 0.912
+[54,  1800] loss: 0.919
+[54,  2400] loss: 0.915
+[54,  3000] loss: 0.913
+[54,  3600] loss: 0.902
+[54,  4200] loss: 0.877
+[54,  4800] loss: 0.880
+[54,  5400] loss: 0.906
+[54,  6000] loss: 0.904
+[54,  6600] loss: 0.861
+Training Time for Epoch :53 
+ 323.52420679293573 seconds
+
+Training Accuracy : 
+ correct predictions  : 334136 
+ total predictions : 448760 
+ Training Accuracy : 74.45761654336394 
+ ------------------------
+
+Validation Time for Epoch :53 
+ 43.376562701538205 seconds
+
+Validation Accuracy : 
+ correct predictions  : 88343 
+ total predictions : 128224 
+ Val-Loss : 0.017802322257471918 
+ Val-Accuracy :68.8973983029698----------------------------------
+
+Updating the model
+[55,   600] loss: 0.870
+[55,  1200] loss: 0.862
+[55,  1800] loss: 0.867
+[55,  2400] loss: 0.863
+[55,  3000] loss: 0.863
+[55,  3600] loss: 0.861
+[55,  4200] loss: 0.860
+[55,  4800] loss: 0.849
+[55,  5400] loss: 0.871
+[55,  6000] loss: 0.872
+[55,  6600] loss: 0.833
+Training Time for Epoch :54 
+ 322.81830780394375 seconds
+
+Training Accuracy : 
+ correct predictions  : 338814 
+ total predictions : 448760 
+ Training Accuracy : 75.50004456725198 
+ ------------------------
+
+Validation Time for Epoch :54 
+ 40.319535952061415 seconds
+
+Validation Accuracy : 
+ correct predictions  : 89255 
+ total predictions : 128224 
+ Val-Loss : 0.017535995538266284 
+ Val-Accuracy :69.60865360618916----------------------------------
+
+Updating the model
+[56,   600] loss: 0.849
+[56,  1200] loss: 0.842
+[56,  1800] loss: 0.819
+[56,  2400] loss: 0.815
+[56,  3000] loss: 0.822
+[56,  3600] loss: 0.799
+[56,  4200] loss: 0.797
+[56,  4800] loss: 0.829
+[56,  5400] loss: 0.834
+[56,  6000] loss: 0.816
+[56,  6600] loss: 0.786
+Training Time for Epoch :55 
+ 304.4610962141305 seconds
+
+Training Accuracy : 
+ correct predictions  : 344077 
+ total predictions : 448760 
+ Training Accuracy : 76.67283180319102 
+ ------------------------
+
+Validation Time for Epoch :55 
+ 39.73613149113953 seconds
+
+Validation Accuracy : 
+ correct predictions  : 91391 
+ total predictions : 128224 
+ Val-Loss : 0.016512731237777203 
+ Val-Accuracy :71.27448839530821----------------------------------
+
+Updating the model
+[57,   600] loss: 0.775
+[57,  1200] loss: 0.799
+[57,  1800] loss: 0.803
+[57,  2400] loss: 0.788
+[57,  3000] loss: 0.791
+[57,  3600] loss: 0.777
+[57,  4200] loss: 0.793
+[57,  4800] loss: 0.774
+[57,  5400] loss: 0.798
+[57,  6000] loss: 0.795
+[57,  6600] loss: 0.742
+Training Time for Epoch :56 
+ 305.77470216341317 seconds
+
+Training Accuracy : 
+ correct predictions  : 348155 
+ total predictions : 448760 
+ Training Accuracy : 77.58155807112934 
+ ------------------------
+
+Validation Time for Epoch :56 
+ 40.573075626045465 seconds
+
+Validation Accuracy : 
+ correct predictions  : 92329 
+ total predictions : 128224 
+ Val-Loss : 0.016015680380270632 
+ Val-Accuracy :72.00602071375094----------------------------------
+
+Updating the model
+[58,   600] loss: 0.755
+[58,  1200] loss: 0.752
+[58,  1800] loss: 0.768
+[58,  2400] loss: 0.760
+[58,  3000] loss: 0.748
+[58,  3600] loss: 0.747
+[58,  4200] loss: 0.733
+[58,  4800] loss: 0.724
+[58,  5400] loss: 0.766
+[58,  6000] loss: 0.769
+[58,  6600] loss: 0.751
+Training Time for Epoch :57 
+ 307.58762537688017 seconds
+
+Training Accuracy : 
+ correct predictions  : 351909 
+ total predictions : 448760 
+ Training Accuracy : 78.4180853908548 
+ ------------------------
+
+Validation Time for Epoch :57 
+ 40.39239169843495 seconds
+
+Validation Accuracy : 
+ correct predictions  : 93087 
+ total predictions : 128224 
+ Val-Loss : 0.015742880482243343 
+ Val-Accuracy :72.59717369603194----------------------------------
+
+Updating the model
+[59,   600] loss: 0.729
+[59,  1200] loss: 0.736
+[59,  1800] loss: 0.710
+[59,  2400] loss: 0.720
+[59,  3000] loss: 0.766
+[59,  3600] loss: 0.749
+[59,  4200] loss: 0.716
+[59,  4800] loss: 0.691
+[59,  5400] loss: 0.732
+[59,  6000] loss: 0.719
+[59,  6600] loss: 0.696
+Training Time for Epoch :58 
+ 306.01897773705423 seconds
+
+Training Accuracy : 
+ correct predictions  : 355600 
+ total predictions : 448760 
+ Training Accuracy : 79.24057402620555 
+ ------------------------
+
+Validation Time for Epoch :58 
+ 40.03379414230585 seconds
+
+Validation Accuracy : 
+ correct predictions  : 94055 
+ total predictions : 128224 
+ Val-Loss : 0.015240568284150784 
+ Val-Accuracy :73.35210257050161----------------------------------
+
+Updating the model
+[60,   600] loss: 0.697
+[60,  1200] loss: 0.717
+[60,  1800] loss: 0.697
+[60,  2400] loss: 0.686
+[60,  3000] loss: 0.698
+[60,  3600] loss: 0.699
+[60,  4200] loss: 0.710
+[60,  4800] loss: 0.684
+[60,  5400] loss: 0.712
+[60,  6000] loss: 0.702
+[60,  6600] loss: 0.655
+Training Time for Epoch :59 
+ 305.9173466935754 seconds
+
+Training Accuracy : 
+ correct predictions  : 358582 
+ total predictions : 448760 
+ Training Accuracy : 79.90507175327569 
+ ------------------------
+
+Validation Time for Epoch :59 
+ 40.14652483537793 seconds
+
+Validation Accuracy : 
+ correct predictions  : 94648 
+ total predictions : 128224 
+ Val-Loss : 0.015078924469522423 
+ Val-Accuracy :73.81457449463439----------------------------------
+
+Updating the model
+[61,   600] loss: 0.668
+[61,  1200] loss: 0.662
+[61,  1800] loss: 0.657
+[61,  2400] loss: 0.658
+[61,  3000] loss: 0.672
+[61,  3600] loss: 0.686
+[61,  4200] loss: 0.680
+[61,  4800] loss: 0.649
+[61,  5400] loss: 0.669
+[61,  6000] loss: 0.657
+[61,  6600] loss: 0.635
+Training Time for Epoch :60 
+ 306.19949494861066 seconds
+
+Training Accuracy : 
+ correct predictions  : 362826 
+ total predictions : 448760 
+ Training Accuracy : 80.8507888403601 
+ ------------------------
+
+Validation Time for Epoch :60 
+ 40.926607336848974 seconds
+
+Validation Accuracy : 
+ correct predictions  : 96443 
+ total predictions : 128224 
+ Val-Loss : 0.014288882449518453 
+ Val-Accuracy :75.21446843024707----------------------------------
+
+Updating the model
+[62,   600] loss: 0.647
+[62,  1200] loss: 0.671
+[62,  1800] loss: 0.657
+[62,  2400] loss: 0.628
+[62,  3000] loss: 0.652
+[62,  3600] loss: 0.645
+[62,  4200] loss: 0.656
+[62,  4800] loss: 0.621
+[62,  5400] loss: 0.634
+[62,  6000] loss: 0.641
+[62,  6600] loss: 0.621
+Training Time for Epoch :61 
+ 306.06656954810023 seconds
+
+Training Accuracy : 
+ correct predictions  : 365439 
+ total predictions : 448760 
+ Training Accuracy : 81.43305998752118 
+ ------------------------
+
+Validation Time for Epoch :61 
+ 40.35865566506982 seconds
+
+Validation Accuracy : 
+ correct predictions  : 97545 
+ total predictions : 128224 
+ Val-Loss : 0.01372319874199145 
+ Val-Accuracy :76.07390192163713----------------------------------
+
+Updating the model
+[63,   600] loss: 0.625
+[63,  1200] loss: 0.643
+[63,  1800] loss: 0.638
+[63,  2400] loss: 0.619
+[63,  3000] loss: 0.607
+[63,  3600] loss: 0.630
+[63,  4200] loss: 0.632
+[63,  4800] loss: 0.648
+[63,  5400] loss: 0.621
+[63,  6000] loss: 0.595
+[63,  6600] loss: 0.585
+Training Time for Epoch :62 
+ 305.81667082197964 seconds
+
+Training Accuracy : 
+ correct predictions  : 368318 
+ total predictions : 448760 
+ Training Accuracy : 82.07460557981994 
+ ------------------------
+
+Validation Time for Epoch :62 
+ 40.194278080016375 seconds
+
+Validation Accuracy : 
+ correct predictions  : 98262 
+ total predictions : 128224 
+ Val-Loss : 0.013485075052923356 
+ Val-Accuracy :76.6330796106813----------------------------------
+
+Updating the model
+[64,   600] loss: 0.614
+[64,  1200] loss: 0.610
+[64,  1800] loss: 0.599
+[64,  2400] loss: 0.597
+[64,  3000] loss: 0.608
+[64,  3600] loss: 0.606
+[64,  4200] loss: 0.600
+[64,  4800] loss: 0.600
+[64,  5400] loss: 0.598
+[64,  6000] loss: 0.598
+[64,  6600] loss: 0.558
+Training Time for Epoch :63 
+ 305.3014026787132 seconds
+
+Training Accuracy : 
+ correct predictions  : 370923 
+ total predictions : 448760 
+ Training Accuracy : 82.65509403690169 
+ ------------------------
+
+Validation Time for Epoch :63 
+ 40.64171786792576 seconds
+
+Validation Accuracy : 
+ correct predictions  : 98845 
+ total predictions : 128224 
+ Val-Loss : 0.013206813057351394 
+ Val-Accuracy :77.08775268280509----------------------------------
+
+Updating the model
+[65,   600] loss: 0.581
+[65,  1200] loss: 0.578
+[65,  1800] loss: 0.612
+[65,  2400] loss: 0.591
+[65,  3000] loss: 0.580
+[65,  3600] loss: 0.591
+[65,  4200] loss: 0.564
+[65,  4800] loss: 0.558
+[65,  5400] loss: 0.582
+[65,  6000] loss: 0.573
+[65,  6600] loss: 0.568
+Training Time for Epoch :64 
+ 304.67538361623883 seconds
+
+Training Accuracy : 
+ correct predictions  : 373413 
+ total predictions : 448760 
+ Training Accuracy : 83.20995632409306 
+ ------------------------
+
+Validation Time for Epoch :64 
+ 43.432921685278416 seconds
+
+Validation Accuracy : 
+ correct predictions  : 100346 
+ total predictions : 128224 
+ Val-Loss : 0.012535513018132174 
+ Val-Accuracy :78.25836036935362----------------------------------
+
+Updating the model
+[66,   600] loss: 0.534
+[66,  1200] loss: 0.541
+[66,  1800] loss: 0.545
+[66,  2400] loss: 0.549
+[66,  3000] loss: 0.557
+[66,  3600] loss: 0.580
+[66,  4200] loss: 0.559
+[66,  4800] loss: 0.552
+[66,  5400] loss: 0.545
+[66,  6000] loss: 0.603
+[66,  6600] loss: 0.539
+Training Time for Epoch :65 
+ 327.7645614799112 seconds
+
+Training Accuracy : 
+ correct predictions  : 376576 
+ total predictions : 448760 
+ Training Accuracy : 83.91478741420804 
+ ------------------------
+
+Validation Time for Epoch :65 
+ 41.83411829546094 seconds
+
+Validation Accuracy : 
+ correct predictions  : 100534 
+ total predictions : 128224 
+ Val-Loss : 0.012461091464752388 
+ Val-Accuracy :78.40497878712253----------------------------------
+
+Updating the model
+[67,   600] loss: 0.549
+[67,  1200] loss: 0.546
+[67,  1800] loss: 0.535
+[67,  2400] loss: 0.536
+[67,  3000] loss: 0.560
+[67,  3600] loss: 0.535
+[67,  4200] loss: 0.537
+[67,  4800] loss: 0.534
+[67,  5400] loss: 0.563
+[67,  6000] loss: 0.546
+[67,  6600] loss: 0.528
+Training Time for Epoch :66 
+ 324.1643031798303 seconds
+
+Training Accuracy : 
+ correct predictions  : 378271 
+ total predictions : 448760 
+ Training Accuracy : 84.29249487476602 
+ ------------------------
+
+Validation Time for Epoch :66 
+ 40.30793407745659 seconds
+
+Validation Accuracy : 
+ correct predictions  : 101153 
+ total predictions : 128224 
+ Val-Loss : 0.012190012689541568 
+ Val-Accuracy :78.88772772647866----------------------------------
+
+Updating the model
+[68,   600] loss: 0.539
+[68,  1200] loss: 0.537
+[68,  1800] loss: 0.535
+[68,  2400] loss: 0.528
+[68,  3000] loss: 0.538
+[68,  3600] loss: 0.523
+[68,  4200] loss: 0.535
+[68,  4800] loss: 0.519
+[68,  5400] loss: 0.545
+[68,  6000] loss: 0.527
+[68,  6600] loss: 0.513
+Training Time for Epoch :67 
+ 303.1354492548853 seconds
+
+Training Accuracy : 
+ correct predictions  : 379796 
+ total predictions : 448760 
+ Training Accuracy : 84.63232017113825 
+ ------------------------
+
+Validation Time for Epoch :67 
+ 40.367390643805265 seconds
+
+Validation Accuracy : 
+ correct predictions  : 101437 
+ total predictions : 128224 
+ Val-Loss : 0.012028341625041057 
+ Val-Accuracy :79.10921512353382----------------------------------
+
+Updating the model
+[69,   600] loss: 0.518
+[69,  1200] loss: 0.536
+[69,  1800] loss: 0.515
+[69,  2400] loss: 0.517
+[69,  3000] loss: 0.516
+[69,  3600] loss: 0.523
+[69,  4200] loss: 0.502
+[69,  4800] loss: 0.497
+[69,  5400] loss: 0.516
+[69,  6000] loss: 0.524
+[69,  6600] loss: 0.493
+Training Time for Epoch :68 
+ 304.4508393779397 seconds
+
+Training Accuracy : 
+ correct predictions  : 382114 
+ total predictions : 448760 
+ Training Accuracy : 85.14885462162403 
+ ------------------------
+
+Validation Time for Epoch :68 
+ 40.75669373013079 seconds
+
+Validation Accuracy : 
+ correct predictions  : 102969 
+ total predictions : 128224 
+ Val-Loss : 0.011413118157731958 
+ Val-Accuracy :80.30399925131022----------------------------------
+
+Updating the model
+[70,   600] loss: 0.500
+[70,  1200] loss: 0.502
+[70,  1800] loss: 0.504
+[70,  2400] loss: 0.492
+[70,  3000] loss: 0.488
+[70,  3600] loss: 0.498
+[70,  4200] loss: 0.493
+[70,  4800] loss: 0.506
+[70,  5400] loss: 0.495
+[70,  6000] loss: 0.500
+[70,  6600] loss: 0.480
+Training Time for Epoch :69 
+ 307.17736864835024 seconds
+
+Training Accuracy : 
+ correct predictions  : 384172 
+ total predictions : 448760 
+ Training Accuracy : 85.6074516445316 
+ ------------------------
+
+Validation Time for Epoch :69 
+ 41.21395346149802 seconds
+
+Validation Accuracy : 
+ correct predictions  : 103209 
+ total predictions : 128224 
+ Val-Loss : 0.011254246876579005 
+ Val-Accuracy :80.49117169952584----------------------------------
+
+Updating the model
+[71,   600] loss: 0.488
+[71,  1200] loss: 0.497
+[71,  1800] loss: 0.483
+[71,  2400] loss: 0.474
+[71,  3000] loss: 0.487
+[71,  3600] loss: 0.497
+[71,  4200] loss: 0.488
+[71,  4800] loss: 0.474
+[71,  5400] loss: 0.512
+[71,  6000] loss: 0.492
+[71,  6600] loss: 0.462
+Training Time for Epoch :70 
+ 305.9149626661092 seconds
+
+Training Accuracy : 
+ correct predictions  : 385002 
+ total predictions : 448760 
+ Training Accuracy : 85.79240574026205 
+ ------------------------
+
+Validation Time for Epoch :70 
+ 39.59428753890097 seconds
+
+Validation Accuracy : 
+ correct predictions  : 102883 
+ total predictions : 128224 
+ Val-Loss : 0.011414063294653602 
+ Val-Accuracy :80.23692912403294----------------------------------
+
+[72,   600] loss: 0.477
+[72,  1200] loss: 0.455
+[72,  1800] loss: 0.458
+[72,  2400] loss: 0.473
+[72,  3000] loss: 0.479
+[72,  3600] loss: 0.491
+[72,  4200] loss: 0.498
+[72,  4800] loss: 0.449
+[72,  5400] loss: 0.480
+[72,  6000] loss: 0.502
+[72,  6600] loss: 0.451
+Training Time for Epoch :71 
+ 307.80404911376536 seconds
+
+Training Accuracy : 
+ correct predictions  : 387252 
+ total predictions : 448760 
+ Training Accuracy : 86.29378732507354 
+ ------------------------
+
+Validation Time for Epoch :71 
+ 40.47415539622307 seconds
+
+Validation Accuracy : 
+ correct predictions  : 104368 
+ total predictions : 128224 
+ Val-Loss : 0.01073432775013965 
+ Val-Accuracy :81.39505864736711----------------------------------
+
+Updating the model
+[73,   600] loss: 0.448
+[73,  1200] loss: 0.460
+[73,  1800] loss: 0.453
+[73,  2400] loss: 0.453
+[73,  3000] loss: 0.465
+[73,  3600] loss: 0.450
+[73,  4200] loss: 0.460
+[73,  4800] loss: 0.461
+[73,  5400] loss: 0.462
+[73,  6000] loss: 0.461
+[73,  6600] loss: 0.453
+Training Time for Epoch :72 
+ 308.8795855268836 seconds
+
+Training Accuracy : 
+ correct predictions  : 389540 
+ total predictions : 448760 
+ Training Accuracy : 86.80363668776184 
+ ------------------------
+
+Validation Time for Epoch :72 
+ 43.24226829968393 seconds
+
+Validation Accuracy : 
+ correct predictions  : 104599 
+ total predictions : 128224 
+ Val-Loss : 0.010748638341722567 
+ Val-Accuracy :81.57521212877464----------------------------------
+
+Updating the model
+[74,   600] loss: 0.441
+[74,  1200] loss: 0.443
+[74,  1800] loss: 0.426
+[74,  2400] loss: 0.471
+[74,  3000] loss: 0.440
+[74,  3600] loss: 0.450
+[74,  4200] loss: 0.446
+[74,  4800] loss: 0.476
+[74,  5400] loss: 0.448
+[74,  6000] loss: 0.446
+[74,  6600] loss: 0.427
+Training Time for Epoch :73 
+ 318.55883243493736 seconds
+
+Training Accuracy : 
+ correct predictions  : 390727 
+ total predictions : 448760 
+ Training Accuracy : 87.06814332828237 
+ ------------------------
+
+Validation Time for Epoch :73 
+ 40.06310890801251 seconds
+
+Validation Accuracy : 
+ correct predictions  : 104839 
+ total predictions : 128224 
+ Val-Loss : 0.010635694940134024 
+ Val-Accuracy :81.76238457699027----------------------------------
+
+Updating the model
+[75,   600] loss: 0.439
+[75,  1200] loss: 0.485
+[75,  1800] loss: 0.434
+[75,  2400] loss: 0.440
+[75,  3000] loss: 0.430
+[75,  3600] loss: 0.436
+[75,  4200] loss: 0.439
+[75,  4800] loss: 0.437
+[75,  5400] loss: 0.428
+[75,  6000] loss: 0.436
+[75,  6600] loss: 0.444
+Training Time for Epoch :74 
+ 306.01729240641 seconds
+
+Training Accuracy : 
+ correct predictions  : 391450 
+ total predictions : 448760 
+ Training Accuracy : 87.2292539442018 
+ ------------------------
+
+Validation Time for Epoch :74 
+ 40.14244780689478 seconds
+
+Validation Accuracy : 
+ correct predictions  : 104922 
+ total predictions : 128224 
+ Val-Loss : 0.01054964173130904 
+ Val-Accuracy :81.82711504866484----------------------------------
+
+Updating the model
+[76,   600] loss: 0.419
+[76,  1200] loss: 0.421
+[76,  1800] loss: 0.423
+[76,  2400] loss: 0.427
+[76,  3000] loss: 0.440
+[76,  3600] loss: 0.424
+[76,  4200] loss: 0.435
+[76,  4800] loss: 0.422
+[76,  5400] loss: 0.467
+[76,  6000] loss: 0.431
+[76,  6600] loss: 0.396
+Training Time for Epoch :75 
+ 311.93186226300895 seconds
+
+Training Accuracy : 
+ correct predictions  : 393402 
+ total predictions : 448760 
+ Training Accuracy : 87.66423032355824 
+ ------------------------
+
+Validation Time for Epoch :75 
+ 40.61562915891409 seconds
+
+Validation Accuracy : 
+ correct predictions  : 105928 
+ total predictions : 128224 
+ Val-Loss : 0.010114570899599466 
+ Val-Accuracy :82.61167956076866----------------------------------
+
+Updating the model
+[77,   600] loss: 0.423
+[77,  1200] loss: 0.431
+[77,  1800] loss: 0.436
+[77,  2400] loss: 0.429
+[77,  3000] loss: 0.417
+[77,  3600] loss: 0.473
+[77,  4200] loss: 0.448
+[77,  4800] loss: 0.416
+[77,  5400] loss: 0.424
+[77,  6000] loss: 0.408
+[77,  6600] loss: 0.394
+Training Time for Epoch :76 
+ 306.77505724690855 seconds
+
+Training Accuracy : 
+ correct predictions  : 393372 
+ total predictions : 448760 
+ Training Accuracy : 87.65754523576076 
+ ------------------------
+
+Validation Time for Epoch :76 
+ 40.48596555180848 seconds
+
+Validation Accuracy : 
+ correct predictions  : 102199 
+ total predictions : 128224 
+ Val-Loss : 0.012117571495708133 
+ Val-Accuracy :79.70348764661843----------------------------------
+
+[78,   600] loss: 0.458
+[78,  1200] loss: 0.418
+[78,  1800] loss: 0.391
+[78,  2400] loss: 0.407
+[78,  3000] loss: 0.414
+[78,  3600] loss: 0.544
+[78,  4200] loss: 0.502
+[78,  4800] loss: 0.422
+[78,  5400] loss: 0.412
+[78,  6000] loss: 0.377
+[78,  6600] loss: 0.367
+Training Time for Epoch :77 
+ 311.8564334567636 seconds
+
+Training Accuracy : 
+ correct predictions  : 393881 
+ total predictions : 448760 
+ Training Accuracy : 87.77096889205812 
+ ------------------------
+
+Validation Time for Epoch :77 
+ 40.602308228611946 seconds
+
+Validation Accuracy : 
+ correct predictions  : 107370 
+ total predictions : 128224 
+ Val-Loss : 0.00957092444532341 
+ Val-Accuracy :83.73627402046418----------------------------------
+
+Updating the model
+[79,   600] loss: 0.373
+[79,  1200] loss: 0.407
+[79,  1800] loss: 0.386
+[79,  2400] loss: 0.397
+[79,  3000] loss: 0.402
+[79,  3600] loss: 0.390
+[79,  4200] loss: 0.420
+[79,  4800] loss: 0.407
+[79,  5400] loss: 0.418
+[79,  6000] loss: 0.416
+[79,  6600] loss: 0.393
+Training Time for Epoch :78 
+ 312.3042680565268 seconds
+
+Training Accuracy : 
+ correct predictions  : 396415 
+ total predictions : 448760 
+ Training Accuracy : 88.3356359746858 
+ ------------------------
+
+Validation Time for Epoch :78 
+ 40.02171443961561 seconds
+
+Validation Accuracy : 
+ correct predictions  : 107091 
+ total predictions : 128224 
+ Val-Loss : 0.009676906396780142 
+ Val-Accuracy :83.51868604941353----------------------------------
+
+[80,   600] loss: 0.387
+[80,  1200] loss: 0.388
+[80,  1800] loss: 0.391
+[80,  2400] loss: 0.405
+[80,  3000] loss: 0.396
+[80,  3600] loss: 0.390
+[80,  4200] loss: 0.397
+[80,  4800] loss: 0.393
+[80,  5400] loss: 0.392
+[80,  6000] loss: 0.403
+[80,  6600] loss: 0.371
+Training Time for Epoch :79 
+ 305.9997199550271 seconds
+
+Training Accuracy : 
+ correct predictions  : 397717 
+ total predictions : 448760 
+ Training Accuracy : 88.62576878509671 
+ ------------------------
+
+Validation Time for Epoch :79 
+ 40.356635278090835 seconds
+
+Validation Accuracy : 
+ correct predictions  : 106987 
+ total predictions : 128224 
+ Val-Loss : 0.009690359828478627 
+ Val-Accuracy :83.43757798852009----------------------------------
+
+[81,   600] loss: 0.408
+[81,  1200] loss: 0.366
+[81,  1800] loss: 0.397
+[81,  2400] loss: 0.405
+[81,  3000] loss: 0.381
+[81,  3600] loss: 0.377
+[81,  4200] loss: 0.396
+[81,  4800] loss: 0.375
+[81,  5400] loss: 0.387
+[81,  6000] loss: 0.381
+[81,  6600] loss: 0.383
+Training Time for Epoch :80 
+ 304.6355258077383 seconds
+
+Training Accuracy : 
+ correct predictions  : 398184 
+ total predictions : 448760 
+ Training Accuracy : 88.72983331847757 
+ ------------------------
+
+Validation Time for Epoch :80 
+ 39.885422544553876 seconds
+
+Validation Accuracy : 
+ correct predictions  : 106938 
+ total predictions : 128224 
+ Val-Loss : 0.009731211917210367 
+ Val-Accuracy :83.39936361367607----------------------------------
+
+[82,   600] loss: 0.374
+[82,  1200] loss: 0.374
+[82,  1800] loss: 0.391
+[82,  2400] loss: 0.367
+[82,  3000] loss: 0.373
+[82,  3600] loss: 0.378
+[82,  4200] loss: 0.385
+[82,  4800] loss: 0.379
+[82,  5400] loss: 0.369
+[82,  6000] loss: 0.369
+[82,  6600] loss: 0.360
+Training Time for Epoch :81 
+ 306.36811033450067 seconds
+
+Training Accuracy : 
+ correct predictions  : 400028 
+ total predictions : 448760 
+ Training Accuracy : 89.14074338176307 
+ ------------------------
+
+Validation Time for Epoch :81 
+ 40.504154309630394 seconds
+
+Validation Accuracy : 
+ correct predictions  : 107966 
+ total predictions : 128224 
+ Val-Loss : 0.00914472530286021 
+ Val-Accuracy :84.20108560019966----------------------------------
+
+Updating the model
+[83,   600] loss: 0.367
+[83,  1200] loss: 0.370
+[83,  1800] loss: 0.360
+[83,  2400] loss: 0.374
+[83,  3000] loss: 0.404
+[83,  3600] loss: 0.384
+[83,  4200] loss: 0.364
+[83,  4800] loss: 0.339
+[83,  5400] loss: 0.362
+[83,  6000] loss: 0.365
+[83,  6600] loss: 0.364
+Training Time for Epoch :82 
+ 313.61774836853147 seconds
+
+Training Accuracy : 
+ correct predictions  : 400550 
+ total predictions : 448760 
+ Training Accuracy : 89.25706390943935 
+ ------------------------
+
+Validation Time for Epoch :82 
+ 40.293387308716774 seconds
+
+Validation Accuracy : 
+ correct predictions  : 107837 
+ total predictions : 128224 
+ Val-Loss : 0.009343101805025334 
+ Val-Accuracy :84.10048040928375----------------------------------
+
+[84,   600] loss: 0.360
+[84,  1200] loss: 0.375
+[84,  1800] loss: 0.343
+[84,  2400] loss: 0.370
+[84,  3000] loss: 0.361
+[84,  3600] loss: 0.398
+[84,  4200] loss: 0.366
+[84,  4800] loss: 0.351
+[84,  5400] loss: 0.369
+[84,  6000] loss: 0.334
+[84,  6600] loss: 0.352
+Training Time for Epoch :83 
+ 301.2265934962779 seconds
+
+Training Accuracy : 
+ correct predictions  : 402120 
+ total predictions : 448760 
+ Training Accuracy : 89.6069168375078 
+ ------------------------
+
+Validation Time for Epoch :83 
+ 40.26341447979212 seconds
+
+Validation Accuracy : 
+ correct predictions  : 108002 
+ total predictions : 128224 
+ Val-Loss : 0.009174176494644163 
+ Val-Accuracy :84.229161467432----------------------------------
+
+Updating the model
+[85,   600] loss: 0.345
+[85,  1200] loss: 0.348
+[85,  1800] loss: 0.349
+[85,  2400] loss: 0.355
+[85,  3000] loss: 0.355
+[85,  3600] loss: 0.352
+[85,  4200] loss: 0.356
+[85,  4800] loss: 0.385
+[85,  5400] loss: 0.383
+[85,  6000] loss: 0.351
+[85,  6600] loss: 0.357
+Training Time for Epoch :84 
+ 304.1436415351927 seconds
+
+Training Accuracy : 
+ correct predictions  : 402314 
+ total predictions : 448760 
+ Training Accuracy : 89.65014707193154 
+ ------------------------
+
+Validation Time for Epoch :84 
+ 40.01314259879291 seconds
+
+Validation Accuracy : 
+ correct predictions  : 108826 
+ total predictions : 128224 
+ Val-Loss : 0.008812537340551665 
+ Val-Accuracy :84.8717868729723----------------------------------
+
+Updating the model
+[86,   600] loss: 0.336
+[86,  1200] loss: 0.351
+[86,  1800] loss: 0.324
+[86,  2400] loss: 0.335
+[86,  3000] loss: 0.367
+[86,  3600] loss: 0.346
+[86,  4200] loss: 0.376
+[86,  4800] loss: 0.359
+[86,  5400] loss: 0.358
+[86,  6000] loss: 0.330
+[86,  6600] loss: 0.342
+Training Time for Epoch :85 
+ 302.178899275139 seconds
+
+Training Accuracy : 
+ correct predictions  : 403390 
+ total predictions : 448760 
+ Training Accuracy : 89.8899188876014 
+ ------------------------
+
+Validation Time for Epoch :85 
+ 40.33338644914329 seconds
+
+Validation Accuracy : 
+ correct predictions  : 109102 
+ total predictions : 128224 
+ Val-Loss : 0.008679833287011302 
+ Val-Accuracy :85.08703518842027----------------------------------
+
+Updating the model
+[87,   600] loss: 0.338
+[87,  1200] loss: 0.344
+[87,  1800] loss: 0.348
+[87,  2400] loss: 0.330
+[87,  3000] loss: 0.344
+[87,  3600] loss: 0.358
+[87,  4200] loss: 0.335
+[87,  4800] loss: 0.337
+[87,  5400] loss: 0.382
+[87,  6000] loss: 0.338
+[87,  6600] loss: 0.318
+Training Time for Epoch :86 
+ 301.12958737276495 seconds
+
+Training Accuracy : 
+ correct predictions  : 404190 
+ total predictions : 448760 
+ Training Accuracy : 90.06818789553435 
+ ------------------------
+
+Validation Time for Epoch :86 
+ 39.583843152970076 seconds
+
+Validation Accuracy : 
+ correct predictions  : 108144 
+ total predictions : 128224 
+ Val-Loss : 0.009193911880171305 
+ Val-Accuracy :84.33990516595958----------------------------------
+
+[88,   600] loss: 0.344
+[88,  1200] loss: 0.349
+[88,  1800] loss: 0.338
+[88,  2400] loss: 0.343
+[88,  3000] loss: 0.329
+[88,  3600] loss: 0.332
+[88,  4200] loss: 0.343
+[88,  4800] loss: 0.349
+[88,  5400] loss: 0.339
+[88,  6000] loss: 0.336
+[88,  6600] loss: 0.324
+Training Time for Epoch :87 
+ 313.71804696135223 seconds
+
+Training Accuracy : 
+ correct predictions  : 404884 
+ total predictions : 448760 
+ Training Accuracy : 90.22283625991622 
+ ------------------------
+
+Validation Time for Epoch :87 
+ 39.98422398045659 seconds
+
+Validation Accuracy : 
+ correct predictions  : 108941 
+ total predictions : 128224 
+ Val-Loss : 0.008783813202923332 
+ Val-Accuracy :84.96147367107561----------------------------------
+
+[89,   600] loss: 0.328
+[89,  1200] loss: 0.329
+[89,  1800] loss: 0.328
+[89,  2400] loss: 0.338
+[89,  3000] loss: 0.348
+[89,  3600] loss: 0.331
+[89,  4200] loss: 0.331
+[89,  4800] loss: 0.331
+[89,  5400] loss: 0.327
+[89,  6000] loss: 0.337
+[89,  6600] loss: 0.328
+Training Time for Epoch :88 
+ 301.127801887691 seconds
+
+Training Accuracy : 
+ correct predictions  : 405569 
+ total predictions : 448760 
+ Training Accuracy : 90.37547909795882 
+ ------------------------
+
+Validation Time for Epoch :88 
+ 40.56842623092234 seconds
+
+Validation Accuracy : 
+ correct predictions  : 109374 
+ total predictions : 128224 
+ Val-Loss : 0.008695569111315275 
+ Val-Accuracy :85.29916396306464----------------------------------
+
+Updating the model
+[90,   600] loss: 0.313
+[90,  1200] loss: 0.330
+[90,  1800] loss: 0.313
+[90,  2400] loss: 0.330
+[90,  3000] loss: 0.337
+[90,  3600] loss: 0.333
+[90,  4200] loss: 0.322
+[90,  4800] loss: 0.324
+[90,  5400] loss: 0.323
+[90,  6000] loss: 0.314
+[90,  6600] loss: 0.314
+Training Time for Epoch :89 
+ 307.73175598308444 seconds
+
+Training Accuracy : 
+ correct predictions  : 406824 
+ total predictions : 448760 
+ Training Accuracy : 90.65513860415368 
+ ------------------------
+
+Validation Time for Epoch :89 
+ 39.93028657883406 seconds
+
+Validation Accuracy : 
+ correct predictions  : 110044 
+ total predictions : 128224 
+ Val-Loss : 0.008312069310808783 
+ Val-Accuracy :85.82168704766659----------------------------------
+
+Updating the model
+Finished Training
+Saved Loss history
