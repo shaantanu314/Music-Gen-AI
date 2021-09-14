@@ -229,4 +229,3 @@ plt.plot(loss_history)
 plt.savefig(lossDir + '/loss_history.png')
 
 print('Saved Loss history')
-
