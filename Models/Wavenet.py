@@ -114,21 +114,4 @@ class Wavenet(nn.Module):
       return output
 
 
-    def predict(self,input,steps=1):
-        outputs = []
-        curr_window = input
-        with torch.no_grad():
-          for i in range(steps):
-            output = self.forward(curr_window)
-            ind = torch.argmax(output,1)
-            ind_ = ind.numpy()
-            outputs.append(ind)
-            next = torch.empty(1,input.shape[0]);
-            next[0] = ind
-            next = next.permute(1,0)
-            curr_window = torch.cat((curr_window,next),1)
-            curr_window = curr_window[:,1:]
-            curr_window = curr_window.type(torch.int32)
-            
-        return outputs
-
+    
