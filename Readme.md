@@ -1,11 +1,12 @@
 <p align="center">
 
   <h1 align="center">Automatic Music Generation using AI </h1>
-
+  <h2> Shaantanu Kulkarni - </h2>
+  <h3> Vijay Kalluri - vijay13aba </h3>
   <p align="center">
     An automatic music generation model which has been  trained on schubert piano tones  can be used to generate piano music .
     <br />
-
+    
   </p>
 </p>
 
